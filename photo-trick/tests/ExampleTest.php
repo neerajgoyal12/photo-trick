@@ -6,6 +6,10 @@ use Illuminate\Foundation\Testing\DatabaseTransactions;
 
 class ExampleTest extends TestCase
 {
+    use WithoutMiddleware;
+    use DatabaseMigrations;
+    use DatabaseTransactions;
+
     /**
      * A basic functional test example.
      *
@@ -13,7 +17,9 @@ class ExampleTest extends TestCase
      */
     public function testBasicExample()
     {
-        $this->visit('/')
+        $user = factory(User::class)->create();
+        $this->actingAs($user)
+             ->visit('/')
              ->see('Laravel 5');
     }
 }
