@@ -6,6 +6,12 @@
 [![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
 [![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
 
+### This Porjects 
+
+[![Build Status](https://semaphoreci.com/api/v1/projects/0f9b35e8-62c7-4021-add2-844e60fd044f/487299/badge.svg)](https://semaphoreci.com/neerajgoyal12/photo-trick)
+
+[MIT license](http://opensource.org/licenses/MIT)
+
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
 
 Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
