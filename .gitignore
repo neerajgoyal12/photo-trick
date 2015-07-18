@@ -3,3 +3,4 @@
 .env.php
 .env
 photo-trick/.phpintel
+database.sqlite
