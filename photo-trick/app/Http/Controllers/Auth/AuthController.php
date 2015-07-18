@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace breeze\Http\Controllers\Auth;
 
-use App\User;
+use breeze\User;
 use Validator;
-use App\Http\Controllers\Controller;
+use breeze\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 

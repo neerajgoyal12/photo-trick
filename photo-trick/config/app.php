@@ -140,9 +140,9 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        breeze\Providers\AppServiceProvider::class,
+        breeze\Providers\EventServiceProvider::class,
+        breeze\Providers\RouteServiceProvider::class,
 
     ],
 

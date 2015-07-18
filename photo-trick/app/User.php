@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace breeze;
 
 use Illuminate\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;

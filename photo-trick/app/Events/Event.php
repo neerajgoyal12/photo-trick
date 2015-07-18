@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Events;
+namespace breeze\Events;
 
 abstract class Event
 {
