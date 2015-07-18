@@ -6,7 +6,13 @@
     "type": "project",
     "require": {
         "php": ">=5.5.9",
-        "laravel/framework": "5.1.*"
+        "laravel/framework": "5.1.*",
+        "league/flysystem-aws-s3-v3": "^1.0",
+        "guzzlehttp/guzzle": "^6.0",
+        "predis/predis": "^1.0",
+        "intervention/image": "^2.3",
+        "dflydev/markdown": "^1.0",
+        "erusev/parsedown": "^1.5"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

@@ -17,7 +17,7 @@ class ExampleTest extends TestCase
      */
     public function testBasicExample()
     {
-        $user = factory(User::class)->create();
+        $user = factory(breeze\User::class)->create();
         $this->actingAs($user)
              ->visit('/')
              ->see('Laravel 5');
