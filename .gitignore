@@ -2,5 +2,9 @@
 .env.*.php
 .env.php
 .env
-photo-trick/.phpintel
+.phpintel
 database.sqlite
+/vendor
+/node_modules
+Homestead.yaml
+.env

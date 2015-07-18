@@ -1,5 +1,0 @@
-suites:
-    main:
-        namespace: breeze
-        psr4_prefix: breeze
-        src_path: app
